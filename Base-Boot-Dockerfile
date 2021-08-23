@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+copy ./target/ArogyaSanjivani-0.0.1-SNAPSHOT.jar ArogyaSanjivani.jar
+CMD ["java","-jar","ArogyaSanjivani.jar"]
